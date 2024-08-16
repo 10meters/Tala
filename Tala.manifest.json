@@ -1,1 +1,29 @@
-{"background_color":"#000000","display":"standalone","icons":[{"sizes":"144x144","src":"Tala.144x144.png","type":"image/png"},{"sizes":"180x180","src":"Tala.180x180.png","type":"image/png"},{"sizes":"512x512","src":"Tala.512x512.png","type":"image/png"}],"name":"Tala","orientation":"any","start_url":"./Tala.html"}
+{"background_color":"#000000","display":"standalone","icons":[{"sizes":"144x144","src":"Tala.144x144.png","type":"image/png"},{"sizes":"180x180","src":"Tala.180x180.png","type":"image/png"},{"sizes":"512x512","src":"Tala.512x512.png","type":"image/png"}],"name":"Tala","orientation":"any","start_url":"./Tala.html",
+  "name": "Tala",
+  "short_name": "tala",
+  // Description what your app is
+  "description": "Note-Taking App",
+
+  // Scope and start URL - these need to change to yours
+  "scope": "/Tala/",
+  "start_url": "/Tala/",
+
+  // colours of the app as displayed in the installer
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+
+  // Display of the app.
+  //This could be "standalone", "fullscreen", "minimal-ui" or "browser"
+  "display": "standalone",
+
+  // The possible icons to display. Make sure to change the src URL,
+  // the type and the size to your needs. If the size isn't correct,
+  // you may not be able to install the app.
+  "icons": [
+      {
+        "src": "/Tala/Tala.icon.png",
+        "type": "image/png",
+        "sizes": "246x299"
+      }
+  ]
+}
